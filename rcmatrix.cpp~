@@ -20,7 +20,8 @@ int main()
 							//			6.3  6.3  6.3  ]
 		cout << A2 << endl;
 		
-		CMatrix S = A1 * A2;			//Multiply A1 by A2
+		CMatrix S;
+		S = A1 * A2;
 		cout << S << endl;
 	
 		fstream f1;

@@ -21,6 +21,7 @@ int main()
 		cout << A2 << endl;
 		
 		CMatrix S;
+
 		S = A1 * A2;
 		cout << S << endl;
 	
